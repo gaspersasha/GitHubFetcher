@@ -1,0 +1,146 @@
+$gray-backer: #ebebeb;
+$gray-backer-l: #f7f7f7;
+$white-backer: #fff;
+
+$gray-text: #848688;
+
+$ubi-color-l: rgba(0, 142, 255, 0.42);
+$ubi-color-d: #1867e1;
+$ubi-color-m:  #0d5fff;
+
+$transparent: rgba(255, 255, 255, 0);
+$black-text-m: #121212;
+
+/*
+BOOTSTRAP
+ */
+
+.btn-primary{
+    background-color: $ubi-color-d;
+    border-color: $ubi-color-d;
+}
+
+//GLOBAL
+
+body{
+    background: $gray-backer-l;
+}
+
+/*
+COMMON components
+*/
+
+.infoMess{
+    margin-top: 100px;
+}
+
+/*
+Header
+ */
+
+.header{
+    padding: 26px 0;
+}
+
+.white-stressed-header{
+    background-color: $white-backer;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.header{
+    .logo{
+        font-size: 24px;
+        padding-left: 40px;
+    }
+    .padding{
+        padding: 0 4px!important;
+    }
+}
+
+.head-search{
+    input{
+        background-color: $gray-backer;
+        border-color: $gray-backer;
+        color: $gray-text;
+    }
+
+    input:focus{
+        color: #000000;
+    }
+
+    input, button{
+        height: 36px;
+    }
+
+    input:focus{
+        color: #000000;
+    }
+
+    input, button{
+        height: 36px;
+    }
+}
+
+/*
+PAGES
+ */
+/*Search*/
+
+.bio{
+    padding: 10px;
+}
+
+.bio{
+    .info{
+        margin-top: 20px;
+    }
+
+    .repos{
+        margin-top: 30px;
+    }
+
+    .repo-item{
+        margin-top: 16px;
+        padding: 10px;
+        border: 1px solid #e1e1e1;
+        background-color: $white-backer;
+    }
+
+    .repo-item .repo-name{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+//Funny!!
+.rainbow {
+    -webkit-animation: rainbow 1.4s infinite;
+    -ms-animation: rainbow 1.4s infinite;
+    animation: rainbow 1.4s infinite;
+}
+@-webkit-keyframes rainbow{
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: #00ff00;}
+    80%{color: blue;}
+    100%{color: #ff38ec;}
+}
+
+@-ms-keyframes rainbow{
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: #00ff00;}
+    80%{color: blue;}
+    100%{color: #ff38ec;}
+}
+
+
+@keyframes rainbow{
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: #00ff00;}
+    80%{color: blue;}
+    100%{color: #ff38ec;}
+}
+
+
