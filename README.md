@@ -43,7 +43,7 @@ Go to UTR:
 http://localhost:3333/
  ```
 
-### Importent!
+### Important!
 
 If you get restrictions from GitHub (401 in console). 
 Feel free to edit app/config/config.jsx and put there your access token.
